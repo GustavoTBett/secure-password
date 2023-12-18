@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  secure_password:
+    container_name: secure_password_container
+    image: postgres:16.1
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: secure_password_pw
+      POSTGRES_USER: secure_password_user
+      POSTGRES_DB: secure_password_db
