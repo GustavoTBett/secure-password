@@ -7,6 +7,7 @@ Verificador da segurança de uma senha utilizando Java e Spring Boot para aprend
 
 Você envia via json alguma senha e retorna o que falta para dar mais segurança para a senha ou se ela já é segura retorna.
 
+Desafio proposto por: https://github.com/backend-br/desafios;
 ```
   Exemplo:
   password: Neo@12
